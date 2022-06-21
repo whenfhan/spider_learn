@@ -79,18 +79,18 @@ import re
 # r = s.get('http://httpbin.org/cookies')
 # print(r.text)
 
-# 请求对象
-url = 'http://httpbin.org/post'
-headers = {
-    'User-Agent': 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)',
-    'Host': 'httpbin.org'
-}
-dict = {
-    'name': 'Germey'
-}
-s = requests.Session()
-req = requests.Request('POST', url, data=dict, headers=headers)
-prepped = s.prepare_request(req)
-r = s.send(prepped)
-print(r.text)
+# # 请求对象
+# url = 'http://httpbin.org/post'
+# headers = {
+#     'User-Agent': 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)',
+#     'Host': 'httpbin.org'
+# }
+# dict = {
+#     'name': 'Germey'
+# }
+# s = requests.Session()
+# req = requests.Request('POST', url, data=dict, headers=headers)
+# prepped = s.prepare_request(req)
+# r = s.send(prepped)
+# print(r.text)
 

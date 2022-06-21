@@ -31,14 +31,6 @@ from requests import head
 #         print('TIME OUT')
 
 # # 自定义请求头
-# url = 'http://httpbin.org/post'
-# headers = {
-#     'User-Agent': 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)',
-#     'Host': 'httpbin.org'
-# }
-# dict = {
-#     'name': 'Germey'
-# }
 # data = bytes(urllib.parse.urlencode(dict), encoding='utf-8')
 # req = urllib.request.Request(url=url, data=data, headers=headers, method='POST')
 # response = urllib.request.urlopen(req)
